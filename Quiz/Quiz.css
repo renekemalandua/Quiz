@@ -1,0 +1,185 @@
+.Container{
+    width: 500px;
+    height: 640px;
+    margin: auto;
+    background:rgba(9, 113, 192, 0.5) ;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0.5px;
+}
+.telaCateroria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0.5px;
+}
+.telaCateroria .Categoria{
+    width: 300px;
+    height: 100px;
+    background: rgb(9, 100, 192);
+    border-radius: 10px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 0px 0px 20px 0.5px;
+}
+.Categoria:active{
+    transform: scale(0.95);
+    transition: transform .2s;
+}
+
+.cat{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(9, 100, 190);
+    margin-bottom: 100px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.telaJogo{
+    display: none;
+}
+.telaRespostaCerta, .telaRespostaErrada{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.Placar{
+    width: 400px;
+    height: 100px;
+    
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(1, 1, 39);
+    border-radius: 10px;
+
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+.bntDecisao{
+
+    width: 400px;
+    height: 50px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    background:  rgb(1, 1, 39);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+}
+body{
+    background-color: rgb(9, 113, 192);
+}
+.TelaQuest{
+
+    width: 475px;
+    height: 192px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(1, 1, 39);
+    border-radius: 5px;
+    margin: 5px 5px;
+    text-align: center;
+
+    color: gold;
+    font-weight: bold;
+    font-size: x-large;
+}
+.minhaBorda{
+    width: 480px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+    margin: 30px 10px 30px 10px;
+    background:  cyan;
+}
+.botao{
+    width: 390px;
+    height: 50px;
+
+    border-bottom-right-radius:100px ;
+    border-top-right-radius: 100px;
+
+    background:  rgb(1, 1, 39);
+    border-color: cyan;
+
+    color: whitesmoke;
+    font-size: medium;
+}
+.botao:active{
+    transform: scale(0.95);
+    transition: transform .2s;
+}
+.btnLetras{
+    width: 60px;
+    height: 50px;
+
+    margin-right: 5px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+
+    background:  rgb(1, 1, 39);
+    border-color:cyan;
+
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: larger;
+}
+.mini{
+    display:flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+}
+.bntHelps{
+    width: 70px;
+    height: 40px;
+    margin: 10px 10px 20px 10px;
+    background:  rgb(1, 1, 39);
+    border-color: cyan;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: medium;
+}
+.pular{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 50px;
+    margin-right: 1px;
+}
+.ajuda{
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 50px;
+    margin-left: 1px;
+
+}
+.status{
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    
+}
+.bntHelps:active{
+    transform: scale(0.95);
+    transition: transform .2s;
+}
+.Opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

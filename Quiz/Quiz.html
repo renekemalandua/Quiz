@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <section class="Container telaJogo">
+        <!--Tela de Jogo-->
+        <div class="minhaBorda">
+        <Div class="TelaQuest">QUAL É O MELHOR ANIME DO MUNDO?</Div>
+        </div>
+        <div class="Opcoes">
+            <div class="mini conteinerA">
+                <input class="btnLetras" type="button" value="A">
+                <input class="botao A" type="button" value="Naruto">
+            </div>
+            <div class="mini conteinerB">
+                <input class="btnLetras" type="button" value="B">
+                <input class="botao B" type="button" value="Shingeki no Kiojin">
+            </div>
+            <div class="mini conteinerC">
+                <input class="btnLetras" type="button" value="C">
+                <input class="botao C" type="button" value="Kimetsu no Yaba">
+            </div>
+            <div class="mini conteinerD">
+                <input class="btnLetras" type="button" value="D">
+                <input class="botao D" type="button" value="Death Note">
+            </div>
+            <div class="Helps">
+            <input class="bntHelps pular" type="button" value="Pular">
+            <input class="bntHelps status" type="" value="1 / 10">
+            <input class="bntHelps ajuda" type="button" value="Ajuda">
+            </div>
+        </div>
+    </section>
+    <!--Tela Resposta Certa -->
+    <section class="Container telaRespostaCerta">
+
+        <Div class="Placar">Resposta CERTA!!</Div>
+        <input class="bntDecisao Proxima" type="button" value="PROXIMA PERGUNTA">
+        <input class="bntDecisao Novojogo" type="button" value="NOVO JOGO">
+
+    </section>
+    <!--Tela Resposta Errada -->
+    <section class="Container telaRespostaErrada">
+
+        <Div class="Placar" id="errada">Resposta ERRADA!!</Div>
+        <input class="bntDecisao Novojogo" type="button" value="NOVO JOGO">
+    </section>
+    <!--Tela inicial e Categoria -->
+    <section class="Container telaCateroria">
+        <div class="cat">< CATEGORIAS /></div>
+        <div class="Categoria Programacao">< PROGRAMAÇÃO /></div>
+        <div class="Categoria Geral">< DIVERSOS /></div>
+    </section>
+    <script src="Quiz.js"></script>
+</body>
+</html>
